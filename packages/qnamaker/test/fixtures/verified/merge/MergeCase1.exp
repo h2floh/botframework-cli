@@ -1,0 +1,81 @@
+{
+  "urls": [],
+  "qnaList": [
+    {
+      "id": 50,
+      "answer": "Answer to ID 50",
+      "source": "magic-source.tsv",
+      "questions": [
+        "A",
+        "B",
+        "C",
+        "G",
+        "W"
+      ],
+      "metadata": [
+        {
+          "name": "tag1",
+          "value": "50"
+        },
+        {
+          "name": "tag2",
+          "value": "value2"
+        }
+      ],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 209,
+      "answer": "Answer to ID 209",
+      "source": "magic-source.tsv",
+      "questions": [
+        "A",
+        "B",
+        "W"
+      ],
+      "metadata": [
+        {
+          "name": "tag1",
+          "value": "209"
+        },
+        {
+          "name": "tag2",
+          "value": "value2"
+        }
+      ],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 377,
+      "answer": "Answer to ID 377",
+      "source": "magic-source.tsv",
+      "questions": [
+        "A",
+        "B",
+        "W"
+      ],
+      "metadata": [
+        {
+          "name": "tag1",
+          "value": "377"
+        },
+        {
+          "name": "tag2",
+          "value": "value23"
+        }
+      ],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    }
+  ],
+  "files": [],
+  "name": ""
+}

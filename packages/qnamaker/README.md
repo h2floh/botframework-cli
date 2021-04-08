@@ -39,6 +39,7 @@ This package is intended for Microsoft use only and should be consumed through @
 * [`bf qnamaker:kb:publish`](#bf-qnamakerkbpublish)
 * [`bf qnamaker:kb:replace`](#bf-qnamakerkbreplace)
 * [`bf qnamaker:kb:update`](#bf-qnamakerkbupdate)
+* [`bf qnamaker:merge`](#bf-qnamakermerge-file)
 * [`bf qnamaker:operationdetails`](#bf-qnamakeroperationdetails)
 * [`bf qnamaker:operationdetails:get`](#bf-qnamakeroperationdetailsget)
 * [`bf qnamaker:query`](#bf-qnamakerquery)
@@ -57,7 +58,7 @@ OPTIONS
   -h, --help  Display QnA Maker CLI available commands
 ```
 
-_See code: [src/commands/qnamaker/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/index.ts)_
+_See code: [src/commands/qnamaker/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/index.ts)_
 
 ## `bf qnamaker:alterations`
 
@@ -71,7 +72,7 @@ OPTIONS
   -h, --help  display qnamaker:alterations available commands
 ```
 
-_See code: [src/commands/qnamaker/alterations/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/alterations/index.ts)_
+_See code: [src/commands/qnamaker/alterations/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/alterations/index.ts)_
 
 ## `bf qnamaker:alterations:list`
 
@@ -90,7 +91,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/alterations/list.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/alterations/list.ts)_
+_See code: [src/commands/qnamaker/alterations/list.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/alterations/list.ts)_
 
 ## `bf qnamaker:alterations:replace`
 
@@ -110,7 +111,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/alterations/replace.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/alterations/replace.ts)_
+_See code: [src/commands/qnamaker/alterations/replace.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/alterations/replace.ts)_
 
 ## `bf qnamaker:build`
 
@@ -163,7 +164,7 @@ EXAMPLE
        $ bf qnamaker:build --in {INPUT_FILE_OR_FOLDER} --subscriptionKey {SUBSCRIPTION_KEY} --botName {BOT_NAME}
 ```
 
-_See code: [src/commands/qnamaker/build.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/build.ts)_
+_See code: [src/commands/qnamaker/build.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/build.ts)_
 
 ## `bf qnamaker:convert`
 
@@ -185,7 +186,7 @@ OPTIONS
   --sort         When set, questions collections are alphabetically sorted are alphabetically sorted in .qna files
 ```
 
-_See code: [src/commands/qnamaker/convert.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/convert.ts)_
+_See code: [src/commands/qnamaker/convert.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/convert.ts)_
 
 ## `bf qnamaker:cross-train`
 
@@ -210,7 +211,7 @@ OPTIONS
   --log                    Writes out log messages to console
 ```
 
-_See code: [src/commands/qnamaker/cross-train.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/cross-train.ts)_
+_See code: [src/commands/qnamaker/cross-train.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/cross-train.ts)_
 
 ## `bf qnamaker:endpointkeys`
 
@@ -224,7 +225,7 @@ OPTIONS
   -h, --help  display qnamaker:endpointkeys available commands
 ```
 
-_See code: [src/commands/qnamaker/endpointkeys/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/endpointkeys/index.ts)_
+_See code: [src/commands/qnamaker/endpointkeys/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/endpointkeys/index.ts)_
 
 ## `bf qnamaker:endpointkeys:list`
 
@@ -243,7 +244,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/endpointkeys/list.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/endpointkeys/list.ts)_
+_See code: [src/commands/qnamaker/endpointkeys/list.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/endpointkeys/list.ts)_
 
 ## `bf qnamaker:endpointkeys:refresh`
 
@@ -263,7 +264,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/endpointkeys/refresh.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/endpointkeys/refresh.ts)_
+_See code: [src/commands/qnamaker/endpointkeys/refresh.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/endpointkeys/refresh.ts)_
 
 ## `bf qnamaker:endpointsettings`
 
@@ -277,7 +278,7 @@ OPTIONS
   -h, --help  display qnamaker:update available commands
 ```
 
-_See code: [src/commands/qnamaker/endpointsettings/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/endpointsettings/index.ts)_
+_See code: [src/commands/qnamaker/endpointsettings/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/endpointsettings/index.ts)_
 
 ## `bf qnamaker:endpointsettings:get`
 
@@ -297,7 +298,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/endpointsettings/get.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/endpointsettings/get.ts)_
+_See code: [src/commands/qnamaker/endpointsettings/get.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/endpointsettings/get.ts)_
 
 ## `bf qnamaker:endpointsettings:update`
 
@@ -317,7 +318,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/endpointsettings/update.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/endpointsettings/update.ts)_
+_See code: [src/commands/qnamaker/endpointsettings/update.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/endpointsettings/update.ts)_
 
 ## `bf qnamaker:init`
 
@@ -332,7 +333,7 @@ OPTIONS
   --endpoint=endpoint  Overrides public endpoint https://westus.api.cognitive.microsoft.com/qnamaker/v4.0/
 ```
 
-_See code: [src/commands/qnamaker/init.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/init.ts)_
+_See code: [src/commands/qnamaker/init.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/init.ts)_
 
 ## `bf qnamaker:kb`
 
@@ -346,7 +347,7 @@ OPTIONS
   -h, --help  display qnamaker:kb available commands
 ```
 
-_See code: [src/commands/qnamaker/kb/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/index.ts)_
+_See code: [src/commands/qnamaker/kb/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/index.ts)_
 
 ## `bf qnamaker:kb:create`
 
@@ -371,7 +372,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/create.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/create.ts)_
+_See code: [src/commands/qnamaker/kb/create.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/create.ts)_
 
 ## `bf qnamaker:kb:delete`
 
@@ -394,7 +395,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/delete.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/delete.ts)_
+_See code: [src/commands/qnamaker/kb/delete.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/delete.ts)_
 
 ## `bf qnamaker:kb:export`
 
@@ -421,7 +422,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/export.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/export.ts)_
+_See code: [src/commands/qnamaker/kb/export.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/export.ts)_
 
 ## `bf qnamaker:kb:get`
 
@@ -443,7 +444,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/get.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/get.ts)_
+_See code: [src/commands/qnamaker/kb/get.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/get.ts)_
 
 ## `bf qnamaker:kb:list`
 
@@ -462,7 +463,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/list.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/list.ts)_
+_See code: [src/commands/qnamaker/kb/list.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/list.ts)_
 
 ## `bf qnamaker:kb:publish`
 
@@ -482,7 +483,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/publish.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/publish.ts)_
+_See code: [src/commands/qnamaker/kb/publish.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/publish.ts)_
 
 ## `bf qnamaker:kb:replace`
 
@@ -507,7 +508,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/kb/replace.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/replace.ts)_
+_See code: [src/commands/qnamaker/kb/replace.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/replace.ts)_
 
 ## `bf qnamaker:kb:update`
 
@@ -534,7 +535,23 @@ OPTIONS
   --wait                             Wait for the operation to complete.
 ```
 
-_See code: [src/commands/qnamaker/kb/update.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/kb/update.ts)_
+_See code: [src/commands/qnamaker/kb/update.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/kb/update.ts)_
+
+## `bf qnamaker:merge [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ bf qnamaker:merge [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/qnamaker/merge.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/merge.ts)_
 
 ## `bf qnamaker:operationdetails`
 
@@ -548,7 +565,7 @@ OPTIONS
   -h, --help  display qnamaker:operationdetails available commands
 ```
 
-_See code: [src/commands/qnamaker/operationdetails/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/operationdetails/index.ts)_
+_See code: [src/commands/qnamaker/operationdetails/index.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/operationdetails/index.ts)_
 
 ## `bf qnamaker:operationdetails:get`
 
@@ -568,7 +585,7 @@ OPTIONS
                                      subscriptionkey value present in the config
 ```
 
-_See code: [src/commands/qnamaker/operationdetails/get.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/operationdetails/get.ts)_
+_See code: [src/commands/qnamaker/operationdetails/get.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/operationdetails/get.ts)_
 
 ## `bf qnamaker:query`
 
@@ -603,7 +620,7 @@ OPTIONS
   --top=top                        Specifies the number of matching results
 ```
 
-_See code: [src/commands/qnamaker/query.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/query.ts)_
+_See code: [src/commands/qnamaker/query.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/query.ts)_
 
 ## `bf qnamaker:train`
 
@@ -632,7 +649,7 @@ OPTIONS
                                      subscriptionkey value present in config
 ```
 
-_See code: [src/commands/qnamaker/train.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/train.ts)_
+_See code: [src/commands/qnamaker/train.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/train.ts)_
 
 ## `bf qnamaker:translate`
 
@@ -668,7 +685,7 @@ OPTIONS
   --translatekey=translatekey                (required) Machine translation endpoint key.
 ```
 
-_See code: [src/commands/qnamaker/translate.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/src/commands/qnamaker/translate.ts)_
+_See code: [src/commands/qnamaker/translate.ts](https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker/blob/v1.0.0/src/commands/qnamaker/translate.ts)_
 <!-- commandsstop -->
 
 [1]:https://aka.ms/qna-file-format

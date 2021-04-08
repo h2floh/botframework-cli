@@ -1,0 +1,34 @@
+> # QnA pairs
+
+> !# @qna.pair.source = magic-source.tsv
+
+<a id = "209"></a>
+
+## ? W
+- B
+- A
+
+**Filters:**
+- tag1 = 209
+- tag2 = value2
+
+```markdown
+Answer to ID 209
+```
+
+> !# @qna.pair.source = magic-source.tsv
+
+<a id = "50"></a>
+
+## ? W
+- B
+- A
+- C
+
+**Filters:**
+- tag1 = 50
+- tag2 = value2
+
+```markdown
+Answer to ID 50
+```
